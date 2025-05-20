@@ -1719,3 +1719,35 @@
 2025-05-21 00:41:24,626 - INFO - 🚀 Khởi động scheduler để quét email
 2025-05-21 00:41:24,635 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
 2025-05-21 00:41:24,635 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-21 01:03:05,014 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-21 01:03:05,015 - INFO - → /process-emails/ [POST]
+2025-05-21 01:03:05,015 - INFO - → /email-test [GET]
+2025-05-21 01:03:05,015 - INFO - → /candidates/ [GET]
+2025-05-21 01:03:05,015 - INFO - → /candidates/ [POST]
+2025-05-21 01:03:05,015 - INFO - → /candidates/interviews [GET]
+2025-05-21 01:03:05,015 - INFO - → /candidates/potential [GET]
+2025-05-21 01:03:05,015 - INFO - → /candidates/potential-positions [GET]
+2025-05-21 01:03:05,016 - INFO - → /candidates/schedule-interview [POST]
+2025-05-21 01:03:05,016 - INFO - → /candidates/stats [GET]
+2025-05-21 01:03:05,016 - INFO - → /candidates/summary [GET]
+2025-05-21 01:03:05,016 - INFO - → /candidates/lookup [GET]
+2025-05-21 01:03:05,016 - INFO - → /candidates/{id} [DELETE]
+2025-05-21 01:03:05,017 - INFO - → /candidates/{id} [GET]
+2025-05-21 01:03:05,017 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-21 01:03:05,017 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-21 01:03:05,017 - INFO - → /job-descriptions/ [GET]
+2025-05-21 01:03:05,017 - INFO - → /job-descriptions/ [POST]
+2025-05-21 01:03:05,017 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-21 01:03:05,017 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-21 01:03:05,017 - INFO - → /users/ [GET]
+2025-05-21 01:03:05,017 - INFO - → /register [POST]
+2025-05-21 01:03:05,017 - INFO - → /users/{username} [PUT]
+2025-05-21 01:03:05,017 - INFO - → /users/{username} [DELETE]
+2025-05-21 01:03:05,017 - INFO - → /login [POST]
+2025-05-21 01:03:05,017 - INFO - → /me [GET]
+2025-05-21 01:03:05,017 - INFO - → /jobs [GET]
+2025-05-21 01:03:05,017 - INFO - → /jobs/{job_id} [GET]
+2025-05-21 01:03:05,017 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-21 01:03:05,019 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-21 01:03:05,019 - INFO - ✅ Scheduler thread đã khởi động thành công
