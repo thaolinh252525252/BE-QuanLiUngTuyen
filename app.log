@@ -1,0 +1,1390 @@
+2025-05-20 00:06:14,079 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 00:06:14,080 - INFO - → /process-emails/ [POST]
+2025-05-20 00:06:14,080 - INFO - → /email-test [GET]
+2025-05-20 00:06:14,080 - INFO - → /candidates/ [GET]
+2025-05-20 00:06:14,080 - INFO - → /candidates/ [POST]
+2025-05-20 00:06:14,080 - INFO - → /candidates/interviews [GET]
+2025-05-20 00:06:14,080 - INFO - → /candidates/potential [GET]
+2025-05-20 00:06:14,081 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 00:06:14,081 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 00:06:14,081 - INFO - → /candidates/stats [GET]
+2025-05-20 00:06:14,081 - INFO - → /candidates/summary [GET]
+2025-05-20 00:06:14,081 - INFO - → /candidates/lookup [GET]
+2025-05-20 00:06:14,081 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 00:06:14,081 - INFO - → /candidates/{id} [GET]
+2025-05-20 00:06:14,082 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 00:06:14,082 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 00:06:14,082 - INFO - → /job-descriptions/ [GET]
+2025-05-20 00:06:14,082 - INFO - → /job-descriptions/ [POST]
+2025-05-20 00:06:14,082 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 00:06:14,082 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 00:06:14,082 - INFO - → /users/ [GET]
+2025-05-20 00:06:14,083 - INFO - → /register [POST]
+2025-05-20 00:06:14,083 - INFO - → /users/{username} [PUT]
+2025-05-20 00:06:14,083 - INFO - → /users/{username} [DELETE]
+2025-05-20 00:06:14,083 - INFO - → /login [POST]
+2025-05-20 00:06:14,084 - INFO - → /me [GET]
+2025-05-20 00:06:14,084 - INFO - → /jobs [GET]
+2025-05-20 00:06:14,085 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 00:06:14,085 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 00:06:14,086 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 00:06:14,087 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-20 00:06:23,234 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 00:06:23,234 - INFO - → /process-emails/ [POST]
+2025-05-20 00:06:23,235 - INFO - → /email-test [GET]
+2025-05-20 00:06:23,235 - INFO - → /candidates/ [GET]
+2025-05-20 00:06:23,235 - INFO - → /candidates/ [POST]
+2025-05-20 00:06:23,235 - INFO - → /candidates/interviews [GET]
+2025-05-20 00:06:23,235 - INFO - → /candidates/potential [GET]
+2025-05-20 00:06:23,235 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 00:06:23,235 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 00:06:23,235 - INFO - → /candidates/stats [GET]
+2025-05-20 00:06:23,235 - INFO - → /candidates/summary [GET]
+2025-05-20 00:06:23,235 - INFO - → /candidates/lookup [GET]
+2025-05-20 00:06:23,235 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 00:06:23,235 - INFO - → /candidates/{id} [GET]
+2025-05-20 00:06:23,235 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 00:06:23,236 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 00:06:23,236 - INFO - → /job-descriptions/ [GET]
+2025-05-20 00:06:23,236 - INFO - → /job-descriptions/ [POST]
+2025-05-20 00:06:23,236 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 00:06:23,236 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 00:06:23,236 - INFO - → /users/ [GET]
+2025-05-20 00:06:23,236 - INFO - → /register [POST]
+2025-05-20 00:06:23,236 - INFO - → /users/{username} [PUT]
+2025-05-20 00:06:23,236 - INFO - → /users/{username} [DELETE]
+2025-05-20 00:06:23,236 - INFO - → /login [POST]
+2025-05-20 00:06:23,236 - INFO - → /me [GET]
+2025-05-20 00:06:23,236 - INFO - → /jobs [GET]
+2025-05-20 00:06:23,237 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 00:06:23,237 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 00:06:23,239 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 00:06:23,239 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-20 11:18:26,537 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 11:18:26,538 - INFO - → /process-emails/ [POST]
+2025-05-20 11:18:26,538 - INFO - → /email-test [GET]
+2025-05-20 11:18:26,538 - INFO - → /candidates/ [GET]
+2025-05-20 11:18:26,538 - INFO - → /candidates/ [POST]
+2025-05-20 11:18:26,538 - INFO - → /candidates/interviews [GET]
+2025-05-20 11:18:26,538 - INFO - → /candidates/potential [GET]
+2025-05-20 11:18:26,538 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 11:18:26,538 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 11:18:26,538 - INFO - → /candidates/stats [GET]
+2025-05-20 11:18:26,538 - INFO - → /candidates/summary [GET]
+2025-05-20 11:18:26,538 - INFO - → /candidates/lookup [GET]
+2025-05-20 11:18:26,538 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 11:18:26,538 - INFO - → /candidates/{id} [GET]
+2025-05-20 11:18:26,539 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 11:18:26,539 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 11:18:26,539 - INFO - → /job-descriptions/ [GET]
+2025-05-20 11:18:26,539 - INFO - → /job-descriptions/ [POST]
+2025-05-20 11:18:26,539 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 11:18:26,539 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 11:18:26,539 - INFO - → /users/ [GET]
+2025-05-20 11:18:26,539 - INFO - → /register [POST]
+2025-05-20 11:18:26,539 - INFO - → /users/{username} [PUT]
+2025-05-20 11:18:26,539 - INFO - → /users/{username} [DELETE]
+2025-05-20 11:18:26,539 - INFO - → /login [POST]
+2025-05-20 11:18:26,539 - INFO - → /me [GET]
+2025-05-20 11:18:26,539 - INFO - → /jobs [GET]
+2025-05-20 11:18:26,539 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 11:18:26,539 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 11:18:26,540 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 11:18:26,540 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-20 11:19:58,497 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 11:19:58,497 - INFO - → /process-emails/ [POST]
+2025-05-20 11:19:58,497 - INFO - → /email-test [GET]
+2025-05-20 11:19:58,497 - INFO - → /candidates/ [GET]
+2025-05-20 11:19:58,497 - INFO - → /candidates/ [POST]
+2025-05-20 11:19:58,498 - INFO - → /candidates/interviews [GET]
+2025-05-20 11:19:58,498 - INFO - → /candidates/potential [GET]
+2025-05-20 11:19:58,498 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 11:19:58,498 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 11:19:58,498 - INFO - → /candidates/stats [GET]
+2025-05-20 11:19:58,498 - INFO - → /candidates/summary [GET]
+2025-05-20 11:19:58,498 - INFO - → /candidates/lookup [GET]
+2025-05-20 11:19:58,498 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 11:19:58,498 - INFO - → /candidates/{id} [GET]
+2025-05-20 11:19:58,498 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 11:19:58,498 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 11:19:58,498 - INFO - → /job-descriptions/ [GET]
+2025-05-20 11:19:58,498 - INFO - → /job-descriptions/ [POST]
+2025-05-20 11:19:58,498 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 11:19:58,499 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 11:19:58,499 - INFO - → /users/ [GET]
+2025-05-20 11:19:58,499 - INFO - → /register [POST]
+2025-05-20 11:19:58,499 - INFO - → /users/{username} [PUT]
+2025-05-20 11:19:58,499 - INFO - → /users/{username} [DELETE]
+2025-05-20 11:19:58,499 - INFO - → /login [POST]
+2025-05-20 11:19:58,499 - INFO - → /me [GET]
+2025-05-20 11:19:58,499 - INFO - → /jobs [GET]
+2025-05-20 11:19:58,499 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 11:19:58,499 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 11:19:58,500 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 11:19:58,500 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-20 11:20:07,777 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 11:20:07,777 - INFO - → /process-emails/ [POST]
+2025-05-20 11:20:07,778 - INFO - → /email-test [GET]
+2025-05-20 11:20:07,778 - INFO - → /candidates/ [GET]
+2025-05-20 11:20:07,778 - INFO - → /candidates/ [POST]
+2025-05-20 11:20:07,778 - INFO - → /candidates/interviews [GET]
+2025-05-20 11:20:07,778 - INFO - → /candidates/potential [GET]
+2025-05-20 11:20:07,778 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 11:20:07,778 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 11:20:07,778 - INFO - → /candidates/stats [GET]
+2025-05-20 11:20:07,778 - INFO - → /candidates/summary [GET]
+2025-05-20 11:20:07,778 - INFO - → /candidates/lookup [GET]
+2025-05-20 11:20:07,778 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 11:20:07,778 - INFO - → /candidates/{id} [GET]
+2025-05-20 11:20:07,778 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 11:20:07,779 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 11:20:07,779 - INFO - → /job-descriptions/ [GET]
+2025-05-20 11:20:07,779 - INFO - → /job-descriptions/ [POST]
+2025-05-20 11:20:07,779 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 11:20:07,779 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 11:20:07,779 - INFO - → /users/ [GET]
+2025-05-20 11:20:07,779 - INFO - → /register [POST]
+2025-05-20 11:20:07,779 - INFO - → /users/{username} [PUT]
+2025-05-20 11:20:07,779 - INFO - → /users/{username} [DELETE]
+2025-05-20 11:20:07,779 - INFO - → /login [POST]
+2025-05-20 11:20:07,779 - INFO - → /me [GET]
+2025-05-20 11:20:07,779 - INFO - → /jobs [GET]
+2025-05-20 11:20:07,779 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 11:20:07,779 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 11:20:07,780 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 11:20:07,780 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-20 11:20:13,220 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 11:20:13,220 - INFO - → /process-emails/ [POST]
+2025-05-20 11:20:13,220 - INFO - → /email-test [GET]
+2025-05-20 11:20:13,220 - INFO - → /candidates/ [GET]
+2025-05-20 11:20:13,220 - INFO - → /candidates/ [POST]
+2025-05-20 11:20:13,220 - INFO - → /candidates/interviews [GET]
+2025-05-20 11:20:13,220 - INFO - → /candidates/potential [GET]
+2025-05-20 11:20:13,220 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 11:20:13,220 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 11:20:13,220 - INFO - → /candidates/stats [GET]
+2025-05-20 11:20:13,221 - INFO - → /candidates/summary [GET]
+2025-05-20 11:20:13,221 - INFO - → /candidates/lookup [GET]
+2025-05-20 11:20:13,221 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 11:20:13,221 - INFO - → /candidates/{id} [GET]
+2025-05-20 11:20:13,221 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 11:20:13,221 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 11:20:13,221 - INFO - → /job-descriptions/ [GET]
+2025-05-20 11:20:13,221 - INFO - → /job-descriptions/ [POST]
+2025-05-20 11:20:13,221 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 11:20:13,221 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 11:20:13,221 - INFO - → /users/ [GET]
+2025-05-20 11:20:13,221 - INFO - → /register [POST]
+2025-05-20 11:20:13,221 - INFO - → /users/{username} [PUT]
+2025-05-20 11:20:13,221 - INFO - → /users/{username} [DELETE]
+2025-05-20 11:20:13,221 - INFO - → /login [POST]
+2025-05-20 11:20:13,221 - INFO - → /me [GET]
+2025-05-20 11:20:13,221 - INFO - → /jobs [GET]
+2025-05-20 11:20:13,221 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 11:20:13,221 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 11:20:13,223 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 11:20:13,223 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-20 11:20:17,713 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 11:20:17,713 - INFO - → /process-emails/ [POST]
+2025-05-20 11:20:17,713 - INFO - → /email-test [GET]
+2025-05-20 11:20:17,714 - INFO - → /candidates/ [GET]
+2025-05-20 11:20:17,714 - INFO - → /candidates/ [POST]
+2025-05-20 11:20:17,715 - INFO - → /candidates/interviews [GET]
+2025-05-20 11:20:17,715 - INFO - → /candidates/potential [GET]
+2025-05-20 11:20:17,715 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 11:20:17,715 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 11:20:17,715 - INFO - → /candidates/stats [GET]
+2025-05-20 11:20:17,716 - INFO - → /candidates/summary [GET]
+2025-05-20 11:20:17,716 - INFO - → /candidates/lookup [GET]
+2025-05-20 11:20:17,716 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 11:20:17,716 - INFO - → /candidates/{id} [GET]
+2025-05-20 11:20:17,716 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 11:20:17,716 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 11:20:17,716 - INFO - → /job-descriptions/ [GET]
+2025-05-20 11:20:17,716 - INFO - → /job-descriptions/ [POST]
+2025-05-20 11:20:17,716 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 11:20:17,716 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 11:20:17,716 - INFO - → /users/ [GET]
+2025-05-20 11:20:17,716 - INFO - → /register [POST]
+2025-05-20 11:20:17,716 - INFO - → /users/{username} [PUT]
+2025-05-20 11:20:17,716 - INFO - → /users/{username} [DELETE]
+2025-05-20 11:20:17,716 - INFO - → /login [POST]
+2025-05-20 11:20:17,716 - INFO - → /me [GET]
+2025-05-20 11:20:17,717 - INFO - → /jobs [GET]
+2025-05-20 11:20:17,717 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 11:20:17,717 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 11:20:17,717 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 11:20:17,718 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-20 11:20:27,318 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 11:20:27,319 - INFO - → /process-emails/ [POST]
+2025-05-20 11:20:27,319 - INFO - → /email-test [GET]
+2025-05-20 11:20:27,319 - INFO - → /candidates/ [GET]
+2025-05-20 11:20:27,319 - INFO - → /candidates/ [POST]
+2025-05-20 11:20:27,319 - INFO - → /candidates/interviews [GET]
+2025-05-20 11:20:27,319 - INFO - → /candidates/potential [GET]
+2025-05-20 11:20:27,319 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 11:20:27,319 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 11:20:27,319 - INFO - → /candidates/stats [GET]
+2025-05-20 11:20:27,319 - INFO - → /candidates/summary [GET]
+2025-05-20 11:20:27,319 - INFO - → /candidates/lookup [GET]
+2025-05-20 11:20:27,319 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 11:20:27,319 - INFO - → /candidates/{id} [GET]
+2025-05-20 11:20:27,319 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 11:20:27,320 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 11:20:27,320 - INFO - → /job-descriptions/ [GET]
+2025-05-20 11:20:27,320 - INFO - → /job-descriptions/ [POST]
+2025-05-20 11:20:27,320 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 11:20:27,320 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 11:20:27,320 - INFO - → /users/ [GET]
+2025-05-20 11:20:27,320 - INFO - → /register [POST]
+2025-05-20 11:20:27,320 - INFO - → /users/{username} [PUT]
+2025-05-20 11:20:27,320 - INFO - → /users/{username} [DELETE]
+2025-05-20 11:20:27,320 - INFO - → /login [POST]
+2025-05-20 11:20:27,321 - INFO - → /me [GET]
+2025-05-20 11:20:27,321 - INFO - → /jobs [GET]
+2025-05-20 11:20:27,321 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 11:20:27,321 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 11:20:27,321 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 11:20:27,321 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-20 11:25:30,520 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 11:25:30,520 - INFO - → /process-emails/ [POST]
+2025-05-20 11:25:30,520 - INFO - → /email-test [GET]
+2025-05-20 11:25:30,520 - INFO - → /candidates/ [GET]
+2025-05-20 11:25:30,520 - INFO - → /candidates/ [POST]
+2025-05-20 11:25:30,520 - INFO - → /candidates/interviews [GET]
+2025-05-20 11:25:30,520 - INFO - → /candidates/potential [GET]
+2025-05-20 11:25:30,520 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 11:25:30,520 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 11:25:30,521 - INFO - → /candidates/stats [GET]
+2025-05-20 11:25:30,521 - INFO - → /candidates/summary [GET]
+2025-05-20 11:25:30,521 - INFO - → /candidates/lookup [GET]
+2025-05-20 11:25:30,521 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 11:25:30,521 - INFO - → /candidates/{id} [GET]
+2025-05-20 11:25:30,521 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 11:25:30,521 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 11:25:30,521 - INFO - → /job-descriptions/ [GET]
+2025-05-20 11:25:30,521 - INFO - → /job-descriptions/ [POST]
+2025-05-20 11:25:30,521 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 11:25:30,521 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 11:25:30,521 - INFO - → /users/ [GET]
+2025-05-20 11:25:30,521 - INFO - → /register [POST]
+2025-05-20 11:25:30,521 - INFO - → /users/{username} [PUT]
+2025-05-20 11:25:30,521 - INFO - → /users/{username} [DELETE]
+2025-05-20 11:25:30,521 - INFO - → /login [POST]
+2025-05-20 11:25:30,521 - INFO - → /me [GET]
+2025-05-20 11:25:30,522 - INFO - → /jobs [GET]
+2025-05-20 11:25:30,522 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 11:25:30,522 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 11:25:30,522 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 11:25:30,522 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-20 11:30:01,436 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 11:30:01,437 - INFO - → /process-emails/ [POST]
+2025-05-20 11:30:01,437 - INFO - → /email-test [GET]
+2025-05-20 11:30:01,437 - INFO - → /candidates/ [GET]
+2025-05-20 11:30:01,437 - INFO - → /candidates/ [POST]
+2025-05-20 11:30:01,437 - INFO - → /candidates/interviews [GET]
+2025-05-20 11:30:01,437 - INFO - → /candidates/potential [GET]
+2025-05-20 11:30:01,437 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 11:30:01,437 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 11:30:01,437 - INFO - → /candidates/stats [GET]
+2025-05-20 11:30:01,437 - INFO - → /candidates/summary [GET]
+2025-05-20 11:30:01,437 - INFO - → /candidates/lookup [GET]
+2025-05-20 11:30:01,437 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 11:30:01,437 - INFO - → /candidates/{id} [GET]
+2025-05-20 11:30:01,437 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 11:30:01,438 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 11:30:01,438 - INFO - → /job-descriptions/ [GET]
+2025-05-20 11:30:01,438 - INFO - → /job-descriptions/ [POST]
+2025-05-20 11:30:01,438 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 11:30:01,438 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 11:30:01,438 - INFO - → /users/ [GET]
+2025-05-20 11:30:01,438 - INFO - → /register [POST]
+2025-05-20 11:30:01,438 - INFO - → /users/{username} [PUT]
+2025-05-20 11:30:01,438 - INFO - → /users/{username} [DELETE]
+2025-05-20 11:30:01,438 - INFO - → /login [POST]
+2025-05-20 11:30:01,438 - INFO - → /me [GET]
+2025-05-20 11:30:01,438 - INFO - → /jobs [GET]
+2025-05-20 11:30:01,438 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 11:30:01,438 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 11:30:01,439 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 11:30:01,439 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-20 11:34:01,247 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 11:34:01,248 - INFO - → /process-emails/ [POST]
+2025-05-20 11:34:01,248 - INFO - → /email-test [GET]
+2025-05-20 11:34:01,248 - INFO - → /candidates/ [GET]
+2025-05-20 11:34:01,248 - INFO - → /candidates/ [POST]
+2025-05-20 11:34:01,248 - INFO - → /candidates/interviews [GET]
+2025-05-20 11:34:01,248 - INFO - → /candidates/potential [GET]
+2025-05-20 11:34:01,248 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 11:34:01,248 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 11:34:01,248 - INFO - → /candidates/stats [GET]
+2025-05-20 11:34:01,248 - INFO - → /candidates/summary [GET]
+2025-05-20 11:34:01,249 - INFO - → /candidates/lookup [GET]
+2025-05-20 11:34:01,249 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 11:34:01,249 - INFO - → /candidates/{id} [GET]
+2025-05-20 11:34:01,249 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 11:34:01,249 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 11:34:01,249 - INFO - → /job-descriptions/ [GET]
+2025-05-20 11:34:01,249 - INFO - → /job-descriptions/ [POST]
+2025-05-20 11:34:01,249 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 11:34:01,249 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 11:34:01,249 - INFO - → /users/ [GET]
+2025-05-20 11:34:01,249 - INFO - → /register [POST]
+2025-05-20 11:34:01,249 - INFO - → /users/{username} [PUT]
+2025-05-20 11:34:01,249 - INFO - → /users/{username} [DELETE]
+2025-05-20 11:34:01,249 - INFO - → /login [POST]
+2025-05-20 11:34:01,250 - INFO - → /me [GET]
+2025-05-20 11:34:01,250 - INFO - → /jobs [GET]
+2025-05-20 11:34:01,250 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 11:34:01,250 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 11:34:01,251 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 11:34:01,251 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-20 11:54:09,967 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 11:54:09,967 - INFO - → /process-emails/ [POST]
+2025-05-20 11:54:09,967 - INFO - → /email-test [GET]
+2025-05-20 11:54:09,967 - INFO - → /candidates/ [GET]
+2025-05-20 11:54:09,968 - INFO - → /candidates/ [POST]
+2025-05-20 11:54:09,968 - INFO - → /candidates/interviews [GET]
+2025-05-20 11:54:09,968 - INFO - → /candidates/potential [GET]
+2025-05-20 11:54:09,968 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 11:54:09,968 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 11:54:09,968 - INFO - → /candidates/stats [GET]
+2025-05-20 11:54:09,968 - INFO - → /candidates/summary [GET]
+2025-05-20 11:54:09,968 - INFO - → /candidates/lookup [GET]
+2025-05-20 11:54:09,968 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 11:54:09,968 - INFO - → /candidates/{id} [GET]
+2025-05-20 11:54:09,969 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 11:54:09,969 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 11:54:09,969 - INFO - → /job-descriptions/ [GET]
+2025-05-20 11:54:09,969 - INFO - → /job-descriptions/ [POST]
+2025-05-20 11:54:09,969 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 11:54:09,969 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 11:54:09,969 - INFO - → /users/ [GET]
+2025-05-20 11:54:09,969 - INFO - → /register [POST]
+2025-05-20 11:54:09,969 - INFO - → /users/{username} [PUT]
+2025-05-20 11:54:09,969 - INFO - → /users/{username} [DELETE]
+2025-05-20 11:54:09,969 - INFO - → /login [POST]
+2025-05-20 11:54:09,969 - INFO - → /me [GET]
+2025-05-20 11:54:09,969 - INFO - → /jobs [GET]
+2025-05-20 11:54:09,969 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 11:54:09,969 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 11:54:09,970 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 11:54:09,970 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-20 12:00:24,538 - INFO - 🕒 Bắt đầu quét email ứng tuyển
+2025-05-20 12:00:24,893 - INFO - ✅ Kết nối MongoDB thành công
+2025-05-20 12:00:51,076 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:00:51,082 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:00:51,083 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:00:51,083 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:00:51,084 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:00:51,084 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:00:51,707 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:00:51,708 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:00:51,708 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:00:51,708 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:00:51,708 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:00:51,708 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:01:45,844 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:01:45,845 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:01:45,846 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:01:45,846 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:01:45,957 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:01:45,957 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:01:45,957 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:01:45,957 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:02:02,943 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:02:02,944 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:02:02,944 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:02:02,944 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:02:02,945 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:02:03,074 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:02:03,074 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:02:03,074 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:02:03,074 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:02:03,074 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:02:21,342 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:02:21,342 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:02:21,342 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:02:21,343 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:02:21,540 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:02:21,540 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:02:21,540 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:02:21,540 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 12:02:37,541 - INFO - ✅ Hoàn thành quét email
+2025-05-20 13:42:13,311 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 13:42:13,313 - INFO - → /process-emails/ [POST]
+2025-05-20 13:42:13,313 - INFO - → /email-test [GET]
+2025-05-20 13:42:13,313 - INFO - → /candidates/ [GET]
+2025-05-20 13:42:13,314 - INFO - → /candidates/ [POST]
+2025-05-20 13:42:13,314 - INFO - → /candidates/interviews [GET]
+2025-05-20 13:42:13,314 - INFO - → /candidates/potential [GET]
+2025-05-20 13:42:13,314 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 13:42:13,314 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 13:42:13,314 - INFO - → /candidates/stats [GET]
+2025-05-20 13:42:13,314 - INFO - → /candidates/summary [GET]
+2025-05-20 13:42:13,314 - INFO - → /candidates/lookup [GET]
+2025-05-20 13:42:13,314 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 13:42:13,314 - INFO - → /candidates/{id} [GET]
+2025-05-20 13:42:13,314 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 13:42:13,314 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 13:42:13,314 - INFO - → /job-descriptions/ [GET]
+2025-05-20 13:42:13,314 - INFO - → /job-descriptions/ [POST]
+2025-05-20 13:42:13,314 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 13:42:13,314 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 13:42:13,314 - INFO - → /users/ [GET]
+2025-05-20 13:42:13,315 - INFO - → /register [POST]
+2025-05-20 13:42:13,315 - INFO - → /users/{username} [PUT]
+2025-05-20 13:42:13,315 - INFO - → /users/{username} [DELETE]
+2025-05-20 13:42:13,315 - INFO - → /login [POST]
+2025-05-20 13:42:13,315 - INFO - → /me [GET]
+2025-05-20 13:42:13,315 - INFO - → /jobs [GET]
+2025-05-20 13:42:13,315 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 13:42:13,315 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 13:42:13,315 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 13:42:13,316 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-20 13:48:30,234 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 13:48:30,234 - INFO - → /process-emails/ [POST]
+2025-05-20 13:48:30,235 - INFO - → /email-test [GET]
+2025-05-20 13:48:30,235 - INFO - → /candidates/ [GET]
+2025-05-20 13:48:30,236 - INFO - → /candidates/ [POST]
+2025-05-20 13:48:30,236 - INFO - → /candidates/interviews [GET]
+2025-05-20 13:48:30,236 - INFO - → /candidates/potential [GET]
+2025-05-20 13:48:30,236 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 13:48:30,236 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 13:48:30,236 - INFO - → /candidates/stats [GET]
+2025-05-20 13:48:30,236 - INFO - → /candidates/summary [GET]
+2025-05-20 13:48:30,236 - INFO - → /candidates/lookup [GET]
+2025-05-20 13:48:30,238 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 13:48:30,238 - INFO - → /candidates/{id} [GET]
+2025-05-20 13:48:30,238 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 13:48:30,238 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 13:48:30,238 - INFO - → /job-descriptions/ [GET]
+2025-05-20 13:48:30,238 - INFO - → /job-descriptions/ [POST]
+2025-05-20 13:48:30,238 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 13:48:30,239 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 13:48:30,239 - INFO - → /users/ [GET]
+2025-05-20 13:48:30,239 - INFO - → /register [POST]
+2025-05-20 13:48:30,239 - INFO - → /users/{username} [PUT]
+2025-05-20 13:48:30,239 - INFO - → /users/{username} [DELETE]
+2025-05-20 13:48:30,239 - INFO - → /login [POST]
+2025-05-20 13:48:30,239 - INFO - → /me [GET]
+2025-05-20 13:48:30,239 - INFO - → /jobs [GET]
+2025-05-20 13:48:30,240 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 13:48:30,240 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 13:48:30,242 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 13:48:30,242 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-20 13:49:29,092 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 13:49:29,092 - INFO - → /process-emails/ [POST]
+2025-05-20 13:49:29,092 - INFO - → /email-test [GET]
+2025-05-20 13:49:29,092 - INFO - → /candidates/ [GET]
+2025-05-20 13:49:29,092 - INFO - → /candidates/ [POST]
+2025-05-20 13:49:29,092 - INFO - → /candidates/interviews [GET]
+2025-05-20 13:49:29,092 - INFO - → /candidates/potential [GET]
+2025-05-20 13:49:29,092 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 13:49:29,092 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 13:49:29,092 - INFO - → /candidates/stats [GET]
+2025-05-20 13:49:29,092 - INFO - → /candidates/summary [GET]
+2025-05-20 13:49:29,092 - INFO - → /candidates/lookup [GET]
+2025-05-20 13:49:29,093 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 13:49:29,093 - INFO - → /candidates/{id} [GET]
+2025-05-20 13:49:29,093 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 13:49:29,093 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 13:49:29,093 - INFO - → /job-descriptions/ [GET]
+2025-05-20 13:49:29,093 - INFO - → /job-descriptions/ [POST]
+2025-05-20 13:49:29,093 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 13:49:29,093 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 13:49:29,093 - INFO - → /users/ [GET]
+2025-05-20 13:49:29,093 - INFO - → /register [POST]
+2025-05-20 13:49:29,093 - INFO - → /users/{username} [PUT]
+2025-05-20 13:49:29,093 - INFO - → /users/{username} [DELETE]
+2025-05-20 13:49:29,093 - INFO - → /login [POST]
+2025-05-20 13:49:29,093 - INFO - → /me [GET]
+2025-05-20 13:49:29,093 - INFO - → /jobs [GET]
+2025-05-20 13:49:29,093 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 13:49:29,093 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 13:49:29,094 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 13:49:29,094 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-20 13:49:59,499 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 13:49:59,499 - INFO - → /process-emails/ [POST]
+2025-05-20 13:49:59,500 - INFO - → /email-test [GET]
+2025-05-20 13:49:59,500 - INFO - → /candidates/ [GET]
+2025-05-20 13:49:59,500 - INFO - → /candidates/ [POST]
+2025-05-20 13:49:59,500 - INFO - → /candidates/interviews [GET]
+2025-05-20 13:49:59,500 - INFO - → /candidates/potential [GET]
+2025-05-20 13:49:59,500 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 13:49:59,500 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 13:49:59,500 - INFO - → /candidates/stats [GET]
+2025-05-20 13:49:59,500 - INFO - → /candidates/summary [GET]
+2025-05-20 13:49:59,500 - INFO - → /candidates/lookup [GET]
+2025-05-20 13:49:59,501 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 13:49:59,501 - INFO - → /candidates/{id} [GET]
+2025-05-20 13:49:59,501 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 13:49:59,501 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 13:49:59,501 - INFO - → /job-descriptions/ [GET]
+2025-05-20 13:49:59,501 - INFO - → /job-descriptions/ [POST]
+2025-05-20 13:49:59,501 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 13:49:59,502 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 13:49:59,502 - INFO - → /users/ [GET]
+2025-05-20 13:49:59,502 - INFO - → /register [POST]
+2025-05-20 13:49:59,502 - INFO - → /users/{username} [PUT]
+2025-05-20 13:49:59,502 - INFO - → /users/{username} [DELETE]
+2025-05-20 13:49:59,503 - INFO - → /login [POST]
+2025-05-20 13:49:59,503 - INFO - → /me [GET]
+2025-05-20 13:49:59,503 - INFO - → /jobs [GET]
+2025-05-20 13:49:59,503 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 13:49:59,503 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 13:49:59,505 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 13:49:59,505 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-20 14:00:23,991 - INFO - 🕒 Bắt đầu quét email ứng tuyển
+2025-05-20 14:00:24,930 - INFO - ✅ Kết nối MongoDB thành công
+2025-05-20 14:00:40,491 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:00:40,504 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:00:41,942 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:00:41,943 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:01:25,967 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:01:25,968 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:01:26,351 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:01:26,352 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:01:39,080 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:01:39,081 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:01:39,081 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:01:39,082 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:01:39,082 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:01:39,574 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:01:39,576 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:01:39,576 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:01:39,576 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:01:39,577 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:01:58,622 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:01:58,623 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:01:58,624 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:01:58,625 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:01:58,625 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:01:58,758 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:01:58,759 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:01:58,759 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:01:58,759 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:01:58,759 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:02:28,486 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:02:28,489 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:02:28,491 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:02:28,491 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:02:28,492 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:02:28,670 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:02:28,671 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:02:28,671 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:02:28,671 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:02:28,671 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:03:23,568 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:03:23,569 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:03:23,570 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:03:23,571 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:03:23,571 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:03:23,572 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:03:23,573 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:03:24,076 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:03:24,077 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:03:24,078 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:03:24,078 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:03:24,079 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:03:24,079 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:03:24,079 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:03:44,909 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:03:44,910 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:03:44,911 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:03:44,912 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:03:44,913 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:03:44,914 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:03:45,128 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:03:45,128 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:03:45,128 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:03:45,129 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:03:45,129 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:03:45,129 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:04:04,962 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:04:04,963 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:04:04,964 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:04:04,965 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:04:05,178 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:04:05,178 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:04:05,178 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:04:05,178 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:04:18,972 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:04:18,974 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:04:18,975 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:04:18,976 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:04:19,161 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:04:19,161 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:04:19,162 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:04:19,163 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:04:32,914 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:04:32,916 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:04:32,918 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:04:32,919 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:04:32,920 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:04:32,921 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:04:33,440 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:04:33,440 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:04:33,441 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:04:33,441 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:04:33,441 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:04:33,441 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:05:28,509 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:05:28,510 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:05:28,511 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:05:28,512 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:05:28,669 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:05:28,669 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:05:28,669 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:05:28,669 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:06:15,290 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 14:06:15,291 - INFO - → /process-emails/ [POST]
+2025-05-20 14:06:15,291 - INFO - → /email-test [GET]
+2025-05-20 14:06:15,291 - INFO - → /candidates/ [GET]
+2025-05-20 14:06:15,291 - INFO - → /candidates/ [POST]
+2025-05-20 14:06:15,291 - INFO - → /candidates/interviews [GET]
+2025-05-20 14:06:15,291 - INFO - → /candidates/potential [GET]
+2025-05-20 14:06:15,291 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 14:06:15,291 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 14:06:15,291 - INFO - → /candidates/stats [GET]
+2025-05-20 14:06:15,292 - INFO - → /candidates/summary [GET]
+2025-05-20 14:06:15,292 - INFO - → /candidates/lookup [GET]
+2025-05-20 14:06:15,292 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 14:06:15,292 - INFO - → /candidates/{id} [GET]
+2025-05-20 14:06:15,292 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 14:06:15,292 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 14:06:15,292 - INFO - → /job-descriptions/ [GET]
+2025-05-20 14:06:15,292 - INFO - → /job-descriptions/ [POST]
+2025-05-20 14:06:15,293 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 14:06:15,293 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 14:06:15,293 - INFO - → /users/ [GET]
+2025-05-20 14:06:15,293 - INFO - → /register [POST]
+2025-05-20 14:06:15,293 - INFO - → /users/{username} [PUT]
+2025-05-20 14:06:15,293 - INFO - → /users/{username} [DELETE]
+2025-05-20 14:06:15,293 - INFO - → /login [POST]
+2025-05-20 14:06:15,294 - INFO - → /me [GET]
+2025-05-20 14:06:15,294 - INFO - → /jobs [GET]
+2025-05-20 14:06:15,294 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 14:06:15,294 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 14:06:15,295 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 14:06:15,295 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-20 14:13:34,369 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 14:13:34,371 - INFO - → /process-emails/ [POST]
+2025-05-20 14:13:34,371 - INFO - → /email-test [GET]
+2025-05-20 14:13:34,371 - INFO - → /candidates/ [GET]
+2025-05-20 14:13:34,373 - INFO - → /candidates/ [POST]
+2025-05-20 14:13:34,374 - INFO - → /candidates/interviews [GET]
+2025-05-20 14:13:34,374 - INFO - → /candidates/potential [GET]
+2025-05-20 14:13:34,375 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 14:13:34,375 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 14:13:34,375 - INFO - → /candidates/stats [GET]
+2025-05-20 14:13:34,375 - INFO - → /candidates/summary [GET]
+2025-05-20 14:13:34,375 - INFO - → /candidates/lookup [GET]
+2025-05-20 14:13:34,375 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 14:13:34,375 - INFO - → /candidates/{id} [GET]
+2025-05-20 14:13:34,375 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 14:13:34,375 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 14:13:34,375 - INFO - → /job-descriptions/ [GET]
+2025-05-20 14:13:34,376 - INFO - → /job-descriptions/ [POST]
+2025-05-20 14:13:34,376 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 14:13:34,376 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 14:13:34,376 - INFO - → /users/ [GET]
+2025-05-20 14:13:34,376 - INFO - → /register [POST]
+2025-05-20 14:13:34,376 - INFO - → /users/{username} [PUT]
+2025-05-20 14:13:34,376 - INFO - → /users/{username} [DELETE]
+2025-05-20 14:13:34,376 - INFO - → /login [POST]
+2025-05-20 14:13:34,376 - INFO - → /me [GET]
+2025-05-20 14:13:34,376 - INFO - → /jobs [GET]
+2025-05-20 14:13:34,376 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 14:13:34,377 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 14:13:34,377 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 14:13:34,378 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-20 14:13:39,883 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 14:13:39,884 - INFO - → /process-emails/ [POST]
+2025-05-20 14:13:39,884 - INFO - → /email-test [GET]
+2025-05-20 14:13:39,884 - INFO - → /candidates/ [GET]
+2025-05-20 14:13:39,884 - INFO - → /candidates/ [POST]
+2025-05-20 14:13:39,885 - INFO - → /candidates/interviews [GET]
+2025-05-20 14:13:39,885 - INFO - → /candidates/potential [GET]
+2025-05-20 14:13:39,885 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 14:13:39,885 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 14:13:39,885 - INFO - → /candidates/stats [GET]
+2025-05-20 14:13:39,886 - INFO - → /candidates/summary [GET]
+2025-05-20 14:13:39,886 - INFO - → /candidates/lookup [GET]
+2025-05-20 14:13:39,887 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 14:13:39,887 - INFO - → /candidates/{id} [GET]
+2025-05-20 14:13:39,887 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 14:13:39,887 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 14:13:39,887 - INFO - → /job-descriptions/ [GET]
+2025-05-20 14:13:39,888 - INFO - → /job-descriptions/ [POST]
+2025-05-20 14:13:39,888 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 14:13:39,888 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 14:13:39,888 - INFO - → /users/ [GET]
+2025-05-20 14:13:39,888 - INFO - → /register [POST]
+2025-05-20 14:13:39,888 - INFO - → /users/{username} [PUT]
+2025-05-20 14:13:39,888 - INFO - → /users/{username} [DELETE]
+2025-05-20 14:13:39,889 - INFO - → /login [POST]
+2025-05-20 14:13:39,889 - INFO - → /me [GET]
+2025-05-20 14:13:39,889 - INFO - → /jobs [GET]
+2025-05-20 14:13:39,889 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 14:13:39,889 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 14:13:39,890 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 14:13:39,891 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-20 14:20:58,286 - INFO - 🕒 Bắt đầu quét email ứng tuyển
+2025-05-20 14:20:59,274 - INFO - ✅ Kết nối MongoDB thành công
+2025-05-20 14:21:15,495 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:21:15,497 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:21:16,529 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:21:16,530 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:22:03,114 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:22:03,114 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:22:03,486 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:22:03,486 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:22:20,791 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:22:20,792 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:22:20,792 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:22:20,793 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:22:20,793 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:22:21,018 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:22:21,018 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:22:21,019 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:22:21,019 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:22:21,020 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:22:39,298 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:22:39,299 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:22:39,300 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:22:39,301 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:22:39,301 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:22:39,459 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:22:39,459 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:22:39,459 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:22:39,459 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:22:39,459 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:23:10,842 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:23:10,843 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:23:10,844 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:23:10,845 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:23:10,846 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:23:11,082 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:23:11,082 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:23:11,082 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:23:11,082 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:23:11,082 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:11,929 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:11,930 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:11,931 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:11,933 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:11,933 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:11,934 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:11,936 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:12,157 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:12,157 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:12,157 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:12,157 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:12,158 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:12,158 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:12,158 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:33,811 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:33,811 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:33,812 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:33,812 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:33,813 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:33,814 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:34,004 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:34,004 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:34,005 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:34,005 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:34,005 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:34,005 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:51,539 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:51,540 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:51,541 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:51,542 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:51,698 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:51,698 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:51,698 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:24:51,699 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:25:06,019 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:25:06,020 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:25:06,022 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:25:06,023 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:25:06,209 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:25:06,209 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:25:06,209 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:25:06,209 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:25:22,701 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:25:22,702 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:25:22,703 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:25:22,704 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:25:22,704 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:25:22,705 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:25:23,080 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:25:23,081 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:25:23,081 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:25:23,081 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:25:23,081 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:25:23,081 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:26:15,863 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:26:15,864 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:26:15,865 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:26:15,866 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:26:16,080 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:26:16,080 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:26:16,080 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:26:16,080 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:26:34,226 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:26:34,226 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:26:34,227 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:26:34,228 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:26:34,228 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:26:34,391 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:26:34,391 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:26:34,391 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:26:34,391 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:26:34,391 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:26:57,570 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:26:57,572 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:26:57,574 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:26:57,575 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:26:57,735 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:26:57,735 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:26:57,736 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:26:57,736 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:27:17,288 - INFO - ✅ Hoàn thành quét email
+2025-05-20 14:37:07,093 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 14:37:07,093 - INFO - → /process-emails/ [POST]
+2025-05-20 14:37:07,093 - INFO - → /email-test [GET]
+2025-05-20 14:37:07,094 - INFO - → /candidates/ [GET]
+2025-05-20 14:37:07,094 - INFO - → /candidates/ [POST]
+2025-05-20 14:37:07,094 - INFO - → /candidates/interviews [GET]
+2025-05-20 14:37:07,094 - INFO - → /candidates/potential [GET]
+2025-05-20 14:37:07,094 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 14:37:07,094 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 14:37:07,094 - INFO - → /candidates/stats [GET]
+2025-05-20 14:37:07,094 - INFO - → /candidates/summary [GET]
+2025-05-20 14:37:07,094 - INFO - → /candidates/lookup [GET]
+2025-05-20 14:37:07,094 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 14:37:07,094 - INFO - → /candidates/{id} [GET]
+2025-05-20 14:37:07,095 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 14:37:07,095 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 14:37:07,095 - INFO - → /job-descriptions/ [GET]
+2025-05-20 14:37:07,096 - INFO - → /job-descriptions/ [POST]
+2025-05-20 14:37:07,096 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 14:37:07,096 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 14:37:07,096 - INFO - → /users/ [GET]
+2025-05-20 14:37:07,096 - INFO - → /register [POST]
+2025-05-20 14:37:07,096 - INFO - → /users/{username} [PUT]
+2025-05-20 14:37:07,096 - INFO - → /users/{username} [DELETE]
+2025-05-20 14:37:07,096 - INFO - → /login [POST]
+2025-05-20 14:37:07,097 - INFO - → /me [GET]
+2025-05-20 14:37:07,097 - INFO - → /jobs [GET]
+2025-05-20 14:37:07,097 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 14:37:07,097 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 14:37:07,099 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 14:37:07,099 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-20 14:44:12,265 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 14:44:12,266 - INFO - → /process-emails/ [POST]
+2025-05-20 14:44:12,266 - INFO - → /email-test [GET]
+2025-05-20 14:44:12,266 - INFO - → /candidates/ [GET]
+2025-05-20 14:44:12,266 - INFO - → /candidates/ [POST]
+2025-05-20 14:44:12,266 - INFO - → /candidates/interviews [GET]
+2025-05-20 14:44:12,266 - INFO - → /candidates/potential [GET]
+2025-05-20 14:44:12,267 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 14:44:12,267 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 14:44:12,267 - INFO - → /candidates/stats [GET]
+2025-05-20 14:44:12,267 - INFO - → /candidates/summary [GET]
+2025-05-20 14:44:12,267 - INFO - → /candidates/lookup [GET]
+2025-05-20 14:44:12,267 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 14:44:12,267 - INFO - → /candidates/{id} [GET]
+2025-05-20 14:44:12,267 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 14:44:12,267 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 14:44:12,268 - INFO - → /job-descriptions/ [GET]
+2025-05-20 14:44:12,268 - INFO - → /job-descriptions/ [POST]
+2025-05-20 14:44:12,268 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 14:44:12,268 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 14:44:12,268 - INFO - → /users/ [GET]
+2025-05-20 14:44:12,268 - INFO - → /register [POST]
+2025-05-20 14:44:12,268 - INFO - → /users/{username} [PUT]
+2025-05-20 14:44:12,268 - INFO - → /users/{username} [DELETE]
+2025-05-20 14:44:12,268 - INFO - → /login [POST]
+2025-05-20 14:44:12,269 - INFO - → /me [GET]
+2025-05-20 14:44:12,269 - INFO - → /jobs [GET]
+2025-05-20 14:44:12,269 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 14:44:12,269 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 14:44:12,279 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 14:44:12,280 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-20 14:44:16,057 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 14:44:16,058 - INFO - → /process-emails/ [POST]
+2025-05-20 14:44:16,059 - INFO - → /email-test [GET]
+2025-05-20 14:44:16,059 - INFO - → /candidates/ [GET]
+2025-05-20 14:44:16,059 - INFO - → /candidates/ [POST]
+2025-05-20 14:44:16,059 - INFO - → /candidates/interviews [GET]
+2025-05-20 14:44:16,059 - INFO - → /candidates/potential [GET]
+2025-05-20 14:44:16,059 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 14:44:16,060 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 14:44:16,060 - INFO - → /candidates/stats [GET]
+2025-05-20 14:44:16,060 - INFO - → /candidates/summary [GET]
+2025-05-20 14:44:16,060 - INFO - → /candidates/lookup [GET]
+2025-05-20 14:44:16,060 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 14:44:16,060 - INFO - → /candidates/{id} [GET]
+2025-05-20 14:44:16,060 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 14:44:16,060 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 14:44:16,060 - INFO - → /job-descriptions/ [GET]
+2025-05-20 14:44:16,060 - INFO - → /job-descriptions/ [POST]
+2025-05-20 14:44:16,060 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 14:44:16,061 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 14:44:16,061 - INFO - → /users/ [GET]
+2025-05-20 14:44:16,061 - INFO - → /register [POST]
+2025-05-20 14:44:16,061 - INFO - → /users/{username} [PUT]
+2025-05-20 14:44:16,061 - INFO - → /users/{username} [DELETE]
+2025-05-20 14:44:16,061 - INFO - → /login [POST]
+2025-05-20 14:44:16,061 - INFO - → /me [GET]
+2025-05-20 14:44:16,061 - INFO - → /jobs [GET]
+2025-05-20 14:44:16,061 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 14:44:16,061 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 14:44:16,062 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 14:44:16,062 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-20 14:46:05,187 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 14:46:05,187 - INFO - → /process-emails/ [POST]
+2025-05-20 14:46:05,190 - INFO - → /email-test [GET]
+2025-05-20 14:46:05,190 - INFO - → /candidates/ [GET]
+2025-05-20 14:46:05,190 - INFO - → /candidates/ [POST]
+2025-05-20 14:46:05,190 - INFO - → /candidates/interviews [GET]
+2025-05-20 14:46:05,190 - INFO - → /candidates/potential [GET]
+2025-05-20 14:46:05,190 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 14:46:05,190 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 14:46:05,190 - INFO - → /candidates/stats [GET]
+2025-05-20 14:46:05,191 - INFO - → /candidates/summary [GET]
+2025-05-20 14:46:05,191 - INFO - → /candidates/lookup [GET]
+2025-05-20 14:46:05,191 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 14:46:05,191 - INFO - → /candidates/{id} [GET]
+2025-05-20 14:46:05,191 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 14:46:05,191 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 14:46:05,191 - INFO - → /job-descriptions/ [GET]
+2025-05-20 14:46:05,191 - INFO - → /job-descriptions/ [POST]
+2025-05-20 14:46:05,191 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 14:46:05,191 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 14:46:05,191 - INFO - → /users/ [GET]
+2025-05-20 14:46:05,191 - INFO - → /register [POST]
+2025-05-20 14:46:05,192 - INFO - → /users/{username} [PUT]
+2025-05-20 14:46:05,192 - INFO - → /users/{username} [DELETE]
+2025-05-20 14:46:05,192 - INFO - → /login [POST]
+2025-05-20 14:46:05,192 - INFO - → /me [GET]
+2025-05-20 14:46:05,192 - INFO - → /jobs [GET]
+2025-05-20 14:46:05,192 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 14:46:05,192 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 14:46:05,193 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 14:46:05,193 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-20 14:46:19,982 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 14:46:19,983 - INFO - → /process-emails/ [POST]
+2025-05-20 14:46:19,983 - INFO - → /email-test [GET]
+2025-05-20 14:46:19,984 - INFO - → /candidates/ [GET]
+2025-05-20 14:46:19,985 - INFO - → /candidates/ [POST]
+2025-05-20 14:46:19,985 - INFO - → /candidates/interviews [GET]
+2025-05-20 14:46:19,985 - INFO - → /candidates/potential [GET]
+2025-05-20 14:46:19,985 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 14:46:19,985 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 14:46:19,985 - INFO - → /candidates/stats [GET]
+2025-05-20 14:46:19,985 - INFO - → /candidates/summary [GET]
+2025-05-20 14:46:19,986 - INFO - → /candidates/lookup [GET]
+2025-05-20 14:46:19,986 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 14:46:19,986 - INFO - → /candidates/{id} [GET]
+2025-05-20 14:46:19,986 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 14:46:19,986 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 14:46:19,986 - INFO - → /job-descriptions/ [GET]
+2025-05-20 14:46:19,987 - INFO - → /job-descriptions/ [POST]
+2025-05-20 14:46:19,987 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 14:46:19,987 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 14:46:19,987 - INFO - → /users/ [GET]
+2025-05-20 14:46:19,987 - INFO - → /register [POST]
+2025-05-20 14:46:19,987 - INFO - → /users/{username} [PUT]
+2025-05-20 14:46:19,987 - INFO - → /users/{username} [DELETE]
+2025-05-20 14:46:19,988 - INFO - → /login [POST]
+2025-05-20 14:46:19,988 - INFO - → /me [GET]
+2025-05-20 14:46:19,988 - INFO - → /jobs [GET]
+2025-05-20 14:46:19,989 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 14:46:19,990 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 14:46:19,992 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 14:46:19,993 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-20 14:46:43,391 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 14:46:43,392 - INFO - → /process-emails/ [POST]
+2025-05-20 14:46:43,393 - INFO - → /email-test [GET]
+2025-05-20 14:46:43,393 - INFO - → /candidates/ [GET]
+2025-05-20 14:46:43,393 - INFO - → /candidates/ [POST]
+2025-05-20 14:46:43,393 - INFO - → /candidates/interviews [GET]
+2025-05-20 14:46:43,393 - INFO - → /candidates/potential [GET]
+2025-05-20 14:46:43,393 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 14:46:43,393 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 14:46:43,393 - INFO - → /candidates/stats [GET]
+2025-05-20 14:46:43,393 - INFO - → /candidates/summary [GET]
+2025-05-20 14:46:43,393 - INFO - → /candidates/lookup [GET]
+2025-05-20 14:46:43,393 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 14:46:43,394 - INFO - → /candidates/{id} [GET]
+2025-05-20 14:46:43,394 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 14:46:43,394 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 14:46:43,394 - INFO - → /job-descriptions/ [GET]
+2025-05-20 14:46:43,394 - INFO - → /job-descriptions/ [POST]
+2025-05-20 14:46:43,394 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 14:46:43,394 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 14:46:43,394 - INFO - → /users/ [GET]
+2025-05-20 14:46:43,395 - INFO - → /register [POST]
+2025-05-20 14:46:43,395 - INFO - → /users/{username} [PUT]
+2025-05-20 14:46:43,395 - INFO - → /users/{username} [DELETE]
+2025-05-20 14:46:43,395 - INFO - → /login [POST]
+2025-05-20 14:46:43,396 - INFO - → /me [GET]
+2025-05-20 14:46:43,396 - INFO - → /jobs [GET]
+2025-05-20 14:46:43,396 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 14:46:43,396 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 14:46:43,397 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 14:46:43,397 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-20 14:47:24,080 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 14:47:24,081 - INFO - → /process-emails/ [POST]
+2025-05-20 14:47:24,081 - INFO - → /email-test [GET]
+2025-05-20 14:47:24,081 - INFO - → /candidates/ [GET]
+2025-05-20 14:47:24,081 - INFO - → /candidates/ [POST]
+2025-05-20 14:47:24,081 - INFO - → /candidates/interviews [GET]
+2025-05-20 14:47:24,082 - INFO - → /candidates/potential [GET]
+2025-05-20 14:47:24,082 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 14:47:24,082 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 14:47:24,082 - INFO - → /candidates/stats [GET]
+2025-05-20 14:47:24,082 - INFO - → /candidates/summary [GET]
+2025-05-20 14:47:24,082 - INFO - → /candidates/lookup [GET]
+2025-05-20 14:47:24,082 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 14:47:24,082 - INFO - → /candidates/{id} [GET]
+2025-05-20 14:47:24,083 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 14:47:24,083 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 14:47:24,083 - INFO - → /job-descriptions/ [GET]
+2025-05-20 14:47:24,083 - INFO - → /job-descriptions/ [POST]
+2025-05-20 14:47:24,083 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 14:47:24,083 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 14:47:24,083 - INFO - → /users/ [GET]
+2025-05-20 14:47:24,083 - INFO - → /register [POST]
+2025-05-20 14:47:24,084 - INFO - → /users/{username} [PUT]
+2025-05-20 14:47:24,084 - INFO - → /users/{username} [DELETE]
+2025-05-20 14:47:24,084 - INFO - → /login [POST]
+2025-05-20 14:47:24,084 - INFO - → /me [GET]
+2025-05-20 14:47:24,084 - INFO - → /jobs [GET]
+2025-05-20 14:47:24,084 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 14:47:24,084 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 14:47:24,087 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 14:47:24,088 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-20 14:47:59,009 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 14:47:59,010 - INFO - → /process-emails/ [POST]
+2025-05-20 14:47:59,010 - INFO - → /email-test [GET]
+2025-05-20 14:47:59,010 - INFO - → /candidates/ [GET]
+2025-05-20 14:47:59,011 - INFO - → /candidates/ [POST]
+2025-05-20 14:47:59,012 - INFO - → /candidates/interviews [GET]
+2025-05-20 14:47:59,012 - INFO - → /candidates/potential [GET]
+2025-05-20 14:47:59,012 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 14:47:59,012 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 14:47:59,013 - INFO - → /candidates/stats [GET]
+2025-05-20 14:47:59,013 - INFO - → /candidates/summary [GET]
+2025-05-20 14:47:59,013 - INFO - → /candidates/lookup [GET]
+2025-05-20 14:47:59,014 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 14:47:59,014 - INFO - → /candidates/{id} [GET]
+2025-05-20 14:47:59,015 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 14:47:59,015 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 14:47:59,015 - INFO - → /job-descriptions/ [GET]
+2025-05-20 14:47:59,015 - INFO - → /job-descriptions/ [POST]
+2025-05-20 14:47:59,015 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 14:47:59,015 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 14:47:59,015 - INFO - → /users/ [GET]
+2025-05-20 14:47:59,015 - INFO - → /register [POST]
+2025-05-20 14:47:59,015 - INFO - → /users/{username} [PUT]
+2025-05-20 14:47:59,015 - INFO - → /users/{username} [DELETE]
+2025-05-20 14:47:59,015 - INFO - → /login [POST]
+2025-05-20 14:47:59,015 - INFO - → /me [GET]
+2025-05-20 14:47:59,016 - INFO - → /jobs [GET]
+2025-05-20 14:47:59,016 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 14:47:59,016 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 14:47:59,017 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 14:47:59,017 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-20 14:48:15,396 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 14:48:15,396 - INFO - → /process-emails/ [POST]
+2025-05-20 14:48:15,396 - INFO - → /email-test [GET]
+2025-05-20 14:48:15,396 - INFO - → /candidates/ [GET]
+2025-05-20 14:48:15,396 - INFO - → /candidates/ [POST]
+2025-05-20 14:48:15,396 - INFO - → /candidates/interviews [GET]
+2025-05-20 14:48:15,396 - INFO - → /candidates/potential [GET]
+2025-05-20 14:48:15,396 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 14:48:15,397 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 14:48:15,397 - INFO - → /candidates/stats [GET]
+2025-05-20 14:48:15,397 - INFO - → /candidates/summary [GET]
+2025-05-20 14:48:15,397 - INFO - → /candidates/lookup [GET]
+2025-05-20 14:48:15,397 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 14:48:15,397 - INFO - → /candidates/{id} [GET]
+2025-05-20 14:48:15,397 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 14:48:15,397 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 14:48:15,397 - INFO - → /job-descriptions/ [GET]
+2025-05-20 14:48:15,397 - INFO - → /job-descriptions/ [POST]
+2025-05-20 14:48:15,397 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 14:48:15,397 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 14:48:15,398 - INFO - → /users/ [GET]
+2025-05-20 14:48:15,398 - INFO - → /register [POST]
+2025-05-20 14:48:15,398 - INFO - → /users/{username} [PUT]
+2025-05-20 14:48:15,398 - INFO - → /users/{username} [DELETE]
+2025-05-20 14:48:15,398 - INFO - → /login [POST]
+2025-05-20 14:48:15,398 - INFO - → /me [GET]
+2025-05-20 14:48:15,398 - INFO - → /jobs [GET]
+2025-05-20 14:48:15,399 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 14:48:15,399 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 14:48:15,399 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 14:48:15,400 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-20 14:49:18,740 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 14:49:18,740 - INFO - → /process-emails/ [POST]
+2025-05-20 14:49:18,740 - INFO - → /email-test [GET]
+2025-05-20 14:49:18,740 - INFO - → /candidates/ [GET]
+2025-05-20 14:49:18,741 - INFO - → /candidates/ [POST]
+2025-05-20 14:49:18,741 - INFO - → /candidates/interviews [GET]
+2025-05-20 14:49:18,741 - INFO - → /candidates/potential [GET]
+2025-05-20 14:49:18,741 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 14:49:18,741 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 14:49:18,741 - INFO - → /candidates/stats [GET]
+2025-05-20 14:49:18,741 - INFO - → /candidates/summary [GET]
+2025-05-20 14:49:18,741 - INFO - → /candidates/lookup [GET]
+2025-05-20 14:49:18,741 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 14:49:18,742 - INFO - → /candidates/{id} [GET]
+2025-05-20 14:49:18,742 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 14:49:18,742 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 14:49:18,742 - INFO - → /job-descriptions/ [GET]
+2025-05-20 14:49:18,742 - INFO - → /job-descriptions/ [POST]
+2025-05-20 14:49:18,742 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 14:49:18,742 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 14:49:18,742 - INFO - → /users/ [GET]
+2025-05-20 14:49:18,742 - INFO - → /register [POST]
+2025-05-20 14:49:18,742 - INFO - → /users/{username} [PUT]
+2025-05-20 14:49:18,743 - INFO - → /users/{username} [DELETE]
+2025-05-20 14:49:18,743 - INFO - → /login [POST]
+2025-05-20 14:49:18,743 - INFO - → /me [GET]
+2025-05-20 14:49:18,743 - INFO - → /jobs [GET]
+2025-05-20 14:49:18,743 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 14:49:18,743 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 14:49:18,744 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 14:49:18,744 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-20 14:50:20,588 - INFO - 🕒 Bắt đầu quét email ứng tuyển
+2025-05-20 14:50:20,954 - INFO - ✅ Kết nối MongoDB thành công
+2025-05-20 14:50:41,335 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:50:41,336 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:50:41,808 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:50:41,809 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:51:24,688 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:51:24,689 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:51:25,000 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:51:25,000 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:51:39,559 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:51:39,561 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:51:39,562 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:51:39,563 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:51:39,564 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:51:39,798 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:51:39,798 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:51:39,798 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:51:39,798 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:51:39,798 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:51:57,172 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:51:57,173 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:51:57,174 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:51:57,174 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:51:57,175 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:51:57,319 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:51:57,319 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:51:57,319 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:51:57,320 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:51:57,320 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:52:28,747 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:52:28,748 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:52:28,749 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:52:28,750 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:52:28,750 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:52:29,024 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:52:29,025 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:52:29,025 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:52:29,026 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:52:29,026 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:53:26,000 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:53:26,001 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:53:26,003 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:53:26,005 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:53:26,006 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:53:26,008 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:53:26,013 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:53:26,404 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:53:26,405 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:53:26,405 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:53:26,405 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:53:26,405 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:53:26,405 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:53:26,406 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:53:45,183 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:53:45,183 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:53:45,184 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:53:45,185 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:53:45,186 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:53:45,186 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:53:45,416 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:53:45,416 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:53:45,416 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:53:45,416 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:53:45,416 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:53:45,416 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:54:06,770 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:54:06,771 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:54:06,772 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:54:06,774 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:54:06,939 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:54:06,939 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:54:06,939 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:54:06,939 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:54:21,106 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:54:21,108 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:54:21,109 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:54:21,110 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:54:21,205 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:54:21,206 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:54:21,206 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:54:21,206 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:54:36,552 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:54:36,553 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:54:36,553 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:54:36,554 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:54:36,557 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:54:36,559 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:54:36,927 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:54:36,927 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:54:36,928 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:54:36,928 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:54:36,928 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:54:36,929 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:55:32,949 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:55:32,950 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:55:32,951 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:55:32,951 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:55:33,129 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:55:33,130 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:55:33,131 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:55:33,131 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-20 14:55:40,578 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 14:55:40,579 - INFO - → /process-emails/ [POST]
+2025-05-20 14:55:40,579 - INFO - → /email-test [GET]
+2025-05-20 14:55:40,581 - INFO - → /candidates/ [GET]
+2025-05-20 14:55:40,581 - INFO - → /candidates/ [POST]
+2025-05-20 14:55:40,581 - INFO - → /candidates/interviews [GET]
+2025-05-20 14:55:40,582 - INFO - → /candidates/potential [GET]
+2025-05-20 14:55:40,582 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 14:55:40,582 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 14:55:40,582 - INFO - → /candidates/stats [GET]
+2025-05-20 14:55:40,582 - INFO - → /candidates/summary [GET]
+2025-05-20 14:55:40,582 - INFO - → /candidates/lookup [GET]
+2025-05-20 14:55:40,582 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 14:55:40,583 - INFO - → /candidates/{id} [GET]
+2025-05-20 14:55:40,583 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 14:55:40,583 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 14:55:40,583 - INFO - → /job-descriptions/ [GET]
+2025-05-20 14:55:40,583 - INFO - → /job-descriptions/ [POST]
+2025-05-20 14:55:40,583 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 14:55:40,583 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 14:55:40,583 - INFO - → /users/ [GET]
+2025-05-20 14:55:40,583 - INFO - → /register [POST]
+2025-05-20 14:55:40,583 - INFO - → /users/{username} [PUT]
+2025-05-20 14:55:40,583 - INFO - → /users/{username} [DELETE]
+2025-05-20 14:55:40,583 - INFO - → /login [POST]
+2025-05-20 14:55:40,583 - INFO - → /me [GET]
+2025-05-20 14:55:40,584 - INFO - → /jobs [GET]
+2025-05-20 14:55:40,584 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 14:55:40,584 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 14:55:40,584 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 14:55:40,585 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-20 15:17:54,514 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 15:17:54,515 - INFO - → /process-emails/ [POST]
+2025-05-20 15:17:54,515 - INFO - → /email-test [GET]
+2025-05-20 15:17:54,515 - INFO - → /candidates/ [GET]
+2025-05-20 15:17:54,515 - INFO - → /candidates/ [POST]
+2025-05-20 15:17:54,515 - INFO - → /candidates/interviews [GET]
+2025-05-20 15:17:54,515 - INFO - → /candidates/potential [GET]
+2025-05-20 15:17:54,515 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 15:17:54,516 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 15:17:54,516 - INFO - → /candidates/stats [GET]
+2025-05-20 15:17:54,516 - INFO - → /candidates/summary [GET]
+2025-05-20 15:17:54,516 - INFO - → /candidates/lookup [GET]
+2025-05-20 15:17:54,516 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 15:17:54,516 - INFO - → /candidates/{id} [GET]
+2025-05-20 15:17:54,516 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 15:17:54,516 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 15:17:54,516 - INFO - → /job-descriptions/ [GET]
+2025-05-20 15:17:54,516 - INFO - → /job-descriptions/ [POST]
+2025-05-20 15:17:54,516 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 15:17:54,516 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 15:17:54,516 - INFO - → /users/ [GET]
+2025-05-20 15:17:54,516 - INFO - → /register [POST]
+2025-05-20 15:17:54,516 - INFO - → /users/{username} [PUT]
+2025-05-20 15:17:54,516 - INFO - → /users/{username} [DELETE]
+2025-05-20 15:17:54,516 - INFO - → /login [POST]
+2025-05-20 15:17:54,516 - INFO - → /me [GET]
+2025-05-20 15:17:54,516 - INFO - → /jobs [GET]
+2025-05-20 15:17:54,516 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 15:17:54,517 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 15:17:54,517 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 15:17:54,517 - INFO - ✅ Scheduler thread đã khởi động thành công
+2025-05-20 15:18:13,757 - INFO - 
+📌 ROUTES ĐANG ĐĂNG KÝ:
+2025-05-20 15:18:13,757 - INFO - → /process-emails/ [POST]
+2025-05-20 15:18:13,758 - INFO - → /email-test [GET]
+2025-05-20 15:18:13,759 - INFO - → /candidates/ [GET]
+2025-05-20 15:18:13,759 - INFO - → /candidates/ [POST]
+2025-05-20 15:18:13,759 - INFO - → /candidates/interviews [GET]
+2025-05-20 15:18:13,759 - INFO - → /candidates/potential [GET]
+2025-05-20 15:18:13,759 - INFO - → /candidates/potential-positions [GET]
+2025-05-20 15:18:13,759 - INFO - → /candidates/schedule-interview [POST]
+2025-05-20 15:18:13,759 - INFO - → /candidates/stats [GET]
+2025-05-20 15:18:13,759 - INFO - → /candidates/summary [GET]
+2025-05-20 15:18:13,759 - INFO - → /candidates/lookup [GET]
+2025-05-20 15:18:13,760 - INFO - → /candidates/{id} [DELETE]
+2025-05-20 15:18:13,760 - INFO - → /candidates/{id} [GET]
+2025-05-20 15:18:13,760 - INFO - → /candidates/{id}/update-result [PATCH]
+2025-05-20 15:18:13,760 - INFO - → /candidates/interviews/{interview_id} [PUT]
+2025-05-20 15:18:13,760 - INFO - → /job-descriptions/ [GET]
+2025-05-20 15:18:13,760 - INFO - → /job-descriptions/ [POST]
+2025-05-20 15:18:13,760 - INFO - → /job-descriptions/{job_id} [PUT]
+2025-05-20 15:18:13,760 - INFO - → /job-descriptions/{job_id} [DELETE]
+2025-05-20 15:18:13,760 - INFO - → /users/ [GET]
+2025-05-20 15:18:13,760 - INFO - → /register [POST]
+2025-05-20 15:18:13,760 - INFO - → /users/{username} [PUT]
+2025-05-20 15:18:13,760 - INFO - → /users/{username} [DELETE]
+2025-05-20 15:18:13,760 - INFO - → /login [POST]
+2025-05-20 15:18:13,760 - INFO - → /me [GET]
+2025-05-20 15:18:13,760 - INFO - → /jobs [GET]
+2025-05-20 15:18:13,760 - INFO - → /jobs/{job_id} [GET]
+2025-05-20 15:18:13,760 - INFO - 🚀 Khởi động scheduler để quét email
+2025-05-20 15:18:13,762 - INFO - 📅 Scheduler đã được thiết lập để quét email lúc 8:00 sáng hàng ngày
+2025-05-20 15:18:13,762 - INFO - ✅ Scheduler thread đã khởi động thành công

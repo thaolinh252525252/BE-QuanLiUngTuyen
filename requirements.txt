@@ -1,0 +1,108 @@
+aiohappyeyeballs==2.6.1
+aiohttp==3.11.16
+aiosignal==1.3.2
+annotated-types @ file:///croot/annotated-types_1709542908624/work
+anyio @ file:///croot/anyio_1729121277521/work
+async-timeout==5.0.1
+attrs==25.3.0
+blinker @ file:///croot/blinker_1737448726027/work
+Brotli @ file:///home/conda/feedstock_root/build_artifacts/brotli-split_1648883617327/work
+cachetools==5.5.2
+certifi==2025.1.31
+cffi @ file:///home/conda/feedstock_root/build_artifacts/cffi_1636046055389/work
+charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1735929714516/work
+click @ file:///croot/click_1698129812380/work
+cryptography==44.0.2
+cssselect2==0.8.0
+distro==1.9.0
+et_xmlfile==2.0.0
+exceptiongroup @ file:///croot/exceptiongroup_1706031385326/work
+Faker @ file:///home/conda/feedstock_root/build_artifacts/faker_1742840648956/work
+fastapi @ file:///croot/fastapi_1724789151288/work
+Flask @ file:///croot/flask_1737454299809/work
+fonttools==4.57.0
+frozenlist==1.6.0
+google-ai-generativelanguage==0.6.15
+google-api-core==2.24.2
+google-api-python-client==2.167.0
+google-auth==2.39.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.2
+google-generativeai==0.8.5
+googleapis-common-protos==1.70.0
+grpcio==1.72.0rc1
+grpcio-status==1.71.0
+gspread==6.2.0
+h11 @ file:///croot/h11_1706652277403/work
+h2 @ file:///home/conda/feedstock_root/build_artifacts/h2_1738578511449/work
+hpack @ file:///home/conda/feedstock_root/build_artifacts/hpack_1737618293087/work
+httpcore==1.0.8
+httplib2==0.22.0
+httpx==0.28.1
+hyperframe @ file:///home/conda/feedstock_root/build_artifacts/hyperframe_1737618333194/work
+idna @ file:///croot/idna_1714398848350/work
+IMAPClient @ file:///home/conda/feedstock_root/build_artifacts/imapclient_1735420840247/work
+importlib_metadata @ file:///croot/importlib_metadata-suite_1732633488278/work
+itsdangerous @ file:///croot/itsdangerous_1716533337253/work
+Jinja2 @ file:///croot/jinja2_1741710844255/work
+jiter==0.9.0
+lxml==5.4.0
+MarkupSafe @ file:///croot/markupsafe_1738584038848/work
+multidict==6.4.3
+numpy @ file:///home/conda/feedstock_root/build_artifacts/numpy_1651020388495/work
+oauth2client==4.1.3
+oauthlib==3.2.2
+openai==0.28.0
+openpyxl==3.1.5
+packaging==25.0
+pandas==1.4.2
+pcapy==0.11.4
+pdf2image==1.17.0
+pdfminer.six==20250327
+pdfplumber==0.11.6
+pillow==11.2.1
+prettytable==3.15.1
+propcache==0.3.1
+proto-plus==1.26.1
+protobuf==5.29.4
+pyasn1==0.6.1
+pyasn1_modules==0.4.2
+pycparser @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_pycparser_1733195786/work
+pydantic @ file:///croot/pydantic_1734736067156/work
+pydantic_core @ file:///croot/pydantic-core_1734726052986/work
+pydyf==0.11.0
+pyexiv2==2.15.3
+pyparsing==3.2.3
+pypdfium2==4.30.1
+pyphen==0.17.2
+PySocks @ file:///home/conda/feedstock_root/build_artifacts/pysocks_1733217236728/work
+pytesseract==0.3.13
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1733215673016/work
+python-docx==1.1.2
+python-nmap==0.7.1
+pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1742920838005/work
+pyzmail36==1.0.5
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1733217035951/work
+requests-oauthlib==2.0.0
+rsa==4.9.1
+scapy==2.6.1
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1733380938961/work
+sniffio @ file:///croot/sniffio_1705431295498/work
+starlette @ file:///croot/starlette-recipe_1724683205298/work
+tinycss2==1.4.0
+tinyhtml5==2.0.0
+tqdm==4.67.1
+twitter==1.19.6
+typing_extensions @ file:///croot/typing_extensions_1734714854207/work
+tzdata @ file:///home/conda/feedstock_root/build_artifacts/python-tzdata_1742745135198/work
+uritemplate==4.1.1
+urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1734859416348/work
+uvicorn @ file:///croot/uvicorn-split_1732660726596/work
+wcwidth==0.2.13
+weasyprint==65.1
+webencodings==0.5.1
+Werkzeug @ file:///croot/werkzeug_1737448706492/work
+yarl==1.20.0
+zipp @ file:///croot/zipp_1732630741423/work
+zopfli==0.2.3.post1
+zstandard @ file:///croot/zstandard_1731356346222/work
