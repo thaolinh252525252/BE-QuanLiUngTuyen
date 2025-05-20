@@ -3,7 +3,7 @@ fastapi==0.103.1
 uvicorn==0.25.0
 
 # Gửi email qua SMTP
-aiosmtplib==1.1.9
+aiosmtplib==1.1.7
 
 # Lấy email qua giao thức IMAP
 IMAPClient==2.3.1
