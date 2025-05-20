@@ -1,5 +1,5 @@
-# Sử dụng image Python chính thức
-FROM python:3.9-slim
+# Sử dụng image Python 3.10 chính thức
+FROM python:3.10-slim
 
 # Thiết lập biến môi trường
 ENV PYTHONDONTWRITEBYTECODE 1

@@ -30,7 +30,7 @@ pandas==1.4.2
 numpy==1.24.4
 
 # Google API
-google-api-python-client==2.67.0
+google-api-python-client==2.66.0
 google-auth==2.39.0
 google-auth-oauthlib==1.2.2
 
