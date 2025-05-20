@@ -20,7 +20,7 @@ from pymongo import MongoClient
 from services.email_tracker_mongo import init_tracking_collection, has_processed_email, mark_email_as_processed
 from services.email_utils import send_result_email
 from email.utils import parsedate_to_datetime
-
+from dotenv import load_dotenv
 EMAIL = "thaovuong669@gmail.com"
 APP_PASSWORD = "wgam okla ffjk wxwy"
 IMAP_SERVER = "imap.gmail.com"
@@ -38,12 +38,20 @@ NEGATIVE_KEYWORDS = [
     "verify", "confirmation", "password", "welcome", "no-reply", "info@", "support@", "notifications@"
 ]
 SPAM_EMAILS = [
-    "recommendations@inspire.pinterest.com",
+    "recommendationss@inspire.pinterest.com",
     "no-reply@mail.englishscore.com"
 ]
 
 def connect_to_mongodb():
-    client = MongoClient("${import.meta.env.Mongo_connect}")
+    load_dotenv()
+
+    # Lấy chuỗi kết nối từ biến môi trường
+    mongo_uri = os.environ.get("Mongo_connect")
+    if not mongo_uri:
+        raise ValueError("Biến 'Mongo_connect' không được thiết lập trong file .env")
+
+    # Kết nối tới MongoDB
+    client = MongoClient(mongo_uri)
     db = client["tuyendung"]
     return db
 
@@ -465,7 +473,7 @@ def process_all_emails(mongo_collection):
         mail.login(EMAIL, APP_PASSWORD)
         mail.select("inbox")
 
-        status, messages = mail.search(None, "ALL")
+        status, messages = mail.search(None, "UNSEEN")
         if status != "OK":
             print("❌ Không tìm thấy email.")
             return

@@ -8,7 +8,7 @@ from typing import Optional
 # Đảm bảo import jose đúng cách
 from jose import JWTError, jwt
 import os
-
+from dotenv import load_dotenv
 # Sử dụng bcrypt trực tiếp thay vì passlib
 import bcrypt
 
@@ -18,7 +18,15 @@ ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 1440  # 24 giờ
 
 router = APIRouter()
-client = MongoClient("${import.meta.env.Mongo_connect}")
+load_dotenv()
+
+# Lấy chuỗi kết nối từ biến môi trường
+mongo_uri = os.environ.get("Mongo_connect")
+if not mongo_uri:
+    raise ValueError("Biến 'Mongo_connect' không được thiết lập trong file .env")
+
+# Kết nối tới MongoDB
+client = MongoClient(mongo_uri)
 db = client["tuyendung"]
 collection = db["users"]
 

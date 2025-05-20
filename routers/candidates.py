@@ -15,12 +15,21 @@ from fastapi.responses import JSONResponse
 from collections import defaultdict
 from datetime import datetime, timedelta
 from docx import Document
-
+from dotenv import load_dotenv
 router = APIRouter()
 
 # Cấu hình MongoDB
 try:
-    client = MongoClient("${import.meta.env.Mongo_connect}", serverSelectionTimeoutMS=3000)
+# Tải biến môi trường từ file .env
+    load_dotenv()
+    
+    # Lấy chuỗi kết nối từ biến môi trường
+    mongo_uri = os.environ.get("Mongo_connect")
+    if not mongo_uri:
+        raise ValueError("Biến 'Mongo_connect' không được thiết lập trong file .env")
+    
+    # Kết nối tới MongoDB với serverSelectionTimeoutMS
+    client = MongoClient(mongo_uri, serverSelectionTimeoutMS=3000)
     db = client["tuyendung"]
     collection = db["ung_vien"]
     jd_collection = db["mo_ta_cong_viec"]
@@ -610,12 +619,12 @@ def get_candidate_summary():
 
     new_candidates = collection.count_documents({"ngay_nop": {"$gte": this_month}})
     interviewed = collection.count_documents({"trang_thai": {"$regex": "phỏng vấn", "$options": "i"}})
-    results_sent = collection.count_documents({"trang_thai_gui_email": "Đã gửi"})
+    # results_sent = collection.count_documents({"trang_thai_gui_email": "Đã gửi"})
 
     return {
         "new_candidates": new_candidates,
         "interviewed": interviewed,
-        "results_sent": results_sent
+        # "results_sent": results_sent
     }
 
 

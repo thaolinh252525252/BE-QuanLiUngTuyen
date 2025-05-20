@@ -2,9 +2,18 @@ from fastapi import APIRouter, HTTPException, Body
 from pymongo import MongoClient, errors
 from bson import ObjectId
 from datetime import datetime
-
+from dotenv import load_dotenv
+import os
 router = APIRouter()
-client = MongoClient("${import.meta.env.Mongo_connect}")
+load_dotenv()
+
+# Lấy chuỗi kết nối từ biến môi trường
+mongo_uri = os.environ.get("Mongo_connect")
+if not mongo_uri:
+    raise ValueError("Biến 'Mongo_connect' không được thiết lập trong file .env")
+
+# Kết nối tới MongoDB
+client = MongoClient(mongo_uri)
 db = client["tuyendung"]
 collection = db["mo_ta_cong_viec"]
 

@@ -1,10 +1,19 @@
 from fastapi import APIRouter, BackgroundTasks
 from pymongo import MongoClient
 from services.email_processor import process_all_emails
-
+from dotenv import load_dotenv
+import os
 router = APIRouter()
 
-client = MongoClient("${import.meta.env.Mongo_connect}")
+load_dotenv()
+
+# Lấy chuỗi kết nối từ biến môi trường
+mongo_uri = os.environ.get("Mongo_connect")
+if not mongo_uri:
+    raise ValueError("Biến 'Mongo_connect' không được thiết lập trong file .env")
+
+# Kết nối tới MongoDB
+client = MongoClient(mongo_uri)
 db = client["tuyendung"]
 collection = db["ung_vien"]
 
