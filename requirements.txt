@@ -83,3 +83,4 @@ Werkzeug==2.3.7
 yarl==1.20.0
 zipp==3.17.0
 zstandard==0.21.0
+pymongo==4.8.0
