@@ -13,6 +13,11 @@ RUN apt-get update && apt-get install -y \
     libssl-dev \
     libffi-dev \
     python3-dev \
+    libpq-dev \
+    zlib1g-dev \
+    libjpeg-dev \
+    libpoppler-cpp-dev \
+    tesseract-ocr \
     && apt-get clean
 
 # Tạo thư mục làm việc trong container
@@ -21,8 +26,9 @@ WORKDIR /app
 # Sao chép file requirements.txt vào container
 COPY requirements.txt /app/
 
-# Cài đặt các thư viện từ requirements.txt
-RUN pip install --no-cache-dir --upgrade pip && pip install --no-cache-dir -r requirements.txt
+# Cập nhật pip và cài đặt các thư viện từ requirements.txt
+RUN pip install --no-cache-dir --upgrade pip setuptools && \
+    pip install --no-cache-dir -r requirements.txt
 
 # Sao chép toàn bộ mã nguồn vào container
 COPY . /app/
