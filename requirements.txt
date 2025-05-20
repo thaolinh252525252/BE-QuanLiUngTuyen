@@ -1,14 +1,11 @@
-attr==0.3.2
+attrs==23.1.0           # Thay thế attr bằng attrs
 colorama==0.4.6
-ConfigParser==7.2.0
 cryptography==45.0.2
 docutils==0.21.2
 fastapi==0.115.12
 filelock==3.18.0
-HTMLParser==0.0.2
 ipython==8.12.3
 ipywidgets==8.1.7
-jnius==1.1.0
 keyring==25.6.0
 pdf2image==1.17.0
 pdfplumber==0.11.6
@@ -19,12 +16,10 @@ pyOpenSSL==25.1.0
 PyPDF2==3.0.1
 pytesseract==0.3.13
 python-dotenv==1.1.0
-python_bcrypt==0.3.2
-python_docx==1.1.2
-python_jose==3.4.0
+bcrypt==4.0.1            # Thay thế python_bcrypt bằng bcrypt
+python-docx==0.8.11      # Thay thế python_docx bằng python-docx
+python-jose==3.4.0       # Thay thế python_jose bằng python-jose
 redis==6.1.0
 schedule==1.2.2
 Sphinx==8.2.3
-thread==2.0.5
-urllib3_secure_extra==0.1.0
-xmlrpclib==1.0.1
+urllib3==2.0.3           # Thay thế urllib3_secure_extra bằng urllib3
