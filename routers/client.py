@@ -7,6 +7,7 @@ from fastapi import HTTPException
 from bson.errors import InvalidId
 from dotenv import load_dotenv
 import os
+
 router = APIRouter()
 # Tải biến môi trường từ file .env
 load_dotenv()

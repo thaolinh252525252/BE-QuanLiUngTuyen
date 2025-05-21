@@ -5,6 +5,7 @@ from pymongo import MongoClient
 from services.email_processor import process_all_emails
 import os
 from dotenv import load_dotenv
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',

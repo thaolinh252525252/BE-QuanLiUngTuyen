@@ -4,12 +4,9 @@ from pymongo import MongoClient
 from bson import ObjectId
 from datetime import datetime, timedelta
 from typing import Optional
-
-# Đảm bảo import jose đúng cách
 from jose import JWTError, jwt
 import os
 from dotenv import load_dotenv
-# Sử dụng bcrypt trực tiếp thay vì passlib
 import bcrypt
 
 # Cấu hình JWT
