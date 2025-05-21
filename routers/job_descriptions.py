@@ -18,7 +18,7 @@ client = MongoClient(mongo_uri)
 db = client["tuyendung"]
 collection = db["mo_ta_cong_viec"]
 
-@router.get("/job-descriptions/")
+@router.get("/job-descriptions")
 def get_all_job_descriptions():
     try:
         docs = collection.find()
@@ -31,7 +31,7 @@ def get_all_job_descriptions():
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Lỗi truy vấn JD: {e}")
 
-@router.post("/job-descriptions/")
+@router.post("/job-descriptions")
 def add_job(job: dict):
     try:
         job["created_at"] = datetime.now()
