@@ -22,7 +22,7 @@ app.include_router(client.router)
 
 app.mount(
     "/cv_files",
-    StaticFiles(directory="/root/FE/recruitment-api/cv_files"),
+    StaticFiles(directory="./cv_files"),
     name="cv_files"
 )
 
