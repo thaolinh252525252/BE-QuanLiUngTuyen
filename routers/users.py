@@ -77,7 +77,7 @@ async def get_current_user(token: str = Depends(oauth2_scheme)):
     return user
 
 # GET all users
-@router.get("/users/")
+@router.get("/users")
 def get_users():
     try:
         users = []
