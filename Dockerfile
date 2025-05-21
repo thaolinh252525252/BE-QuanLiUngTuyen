@@ -29,6 +29,7 @@ COPY requirements.txt /app/
 # Cập nhật pip và cài đặt các thư viện từ requirements.txt
 RUN pip install --no-cache-dir --upgrade pip setuptools && \
     pip install --no-cache-dir -r requirements.txt
+RUN pip install fastapi uvicorn
 
 # Sao chép toàn bộ mã nguồn vào container
 COPY . /app/
