@@ -33,5 +33,8 @@ RUN pip install --no-cache-dir --upgrade pip setuptools && \
 # Sao chép toàn bộ mã nguồn vào container
 COPY . /app/
 
-# Chạy ứng dụng
-CMD ["python", "main.py"]
+# Expose cổng 8000 (Uvicorn mặc định chạy trên cổng này)
+EXPOSE 8000
+
+# Chạy ứng dụng bằng Uvicorn
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
