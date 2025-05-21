@@ -3,6 +3,7 @@ from pymongo import MongoClient
 from services.email_processor import process_all_emails
 from dotenv import load_dotenv
 import os
+
 router = APIRouter()
 
 load_dotenv()
